@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+	<title></title>
+	<link href="index.css" rel="stylesheet" />
+</head>
+<body>
+	<div class="grid-container">
+		<div style="clear: both">
+			<h1 id="f-50" style="float: left">People Count:</h1>
+			<h1 id="f-60" style="float: right">Total:</h1>
+		</div>
+		<div style="clear: both">
+			<h1 id="count-el" style="float: left">0</h1>
+			<h1 id="valueSum" style="float: right">0</h1>
+		</div>
+		<div id="center-button">	
+			<button id="increment-btn" onclick="lapCount()">INCREMENT</button>
+			<button id="save-btn" onclick="save()">SAVE</button>
+			<button id="reset-btn" onclick="reset()">RESET</button>
+			<button id="total-btn" onclick="total()">SHOW TOTAL</button>
+		</div>
+		<div>
+			<h1 id="sum">Added:</h1>
+			<h1 id="values"></h1>
+		</div>
+	</div>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
